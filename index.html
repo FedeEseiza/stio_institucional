@@ -8,34 +8,38 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
+    <!--Font Anwensome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css
+    ">
     <title>Sitio Institucional EDLP</title>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img src="assets/img/logo-edelp.png" width="50" height="50" alt="">
-        </a>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">El CLUB<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">FUTBOL</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">DEPORTES</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">ESTADIO</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="#">SOCIOS</a>
-            </li>
-          </ul>
-        </div>
-    </nav>
 </head>
 <body>
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="assets/img/logo-edelp.png" width="50" height="50" alt="">
+    </a>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">El CLUB<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">FUTBOL</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">DEPORTES</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">ESTADIO</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">SOCIOS</a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+    <div class="container-carousel">
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -69,11 +73,13 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+      </div>
     </div>
     <div class="row row-cols-4 row-cols-md-4">
       <div class="col mb-1">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
+            <i class="fa fa-futbol-o" aria-hidden="true"></i>
             <h5 class="card-title">Historia</h5>
             <p class="card-text">El Club Estudiantes de La Plata nació bajo la cultura del trabajo, del esfuerzo y del sacrificio individual en pos del bien colectivo. 
               Es la identidad que lo atraviesa, que lo forja y que le da la voluntad necesaria para creer en utopías. 
@@ -84,26 +90,51 @@
       <div class="col mb-1">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
+            <i class="fa fa-university" aria-hidden="true"></i>
             <h5 class="card-title">Museo</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">La Subcomisión de Museo del Club Estudiantes de La Plata nace oficialmente
+              en diciembre de 2013 de la propuesta de un grupo 
+              de socios o historiadores de la necesidad de difusión de su vida social y deportiva y 
+              de la urgente preservación de su acervo cultural y patrimonial.</p>
           </div>
         </div>
       </div>
       <div class="col mb-1">
         <div class="card" style="width: 18rem;">
           <div class="card-body">
-            <h5 class="card-title">ADN</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col mb-1">
-        <div class="card" style="width: 18rem;">
-          <div class="card-body">
+            <i class="fa fa-users" aria-hidden="true"></i>
             <h5 class="card-title">Fundacion</h5>
-
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text">La Fundación Estudiantes gira en torno de trabajar en forma conjunta con socios, 
+              hinchas y deportistas para hacer de Estudiantes de La Plata un club mas inclusivo y comprometido 
+              con las distintas problemáticas sociales del país; atendiendo
+              a las necesidades de los sectores vulnerables desde el aspecto social, cultural y deportivo.</p>
           </div>
+        </div>
+      </div>
+      <div class="col mb-1">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <i class="fa fa-bolt" aria-hidden="true"></i>
+            <h5 class="card-title">ADN</h5>
+            <p class="card-text">La Fundación Estudiantes gira en torno de trabajar en forma conjunta con socios, 
+              hinchas y deportistas para hacer de Estudiantes de La Plata un club mas inclusivo y comprometido 
+              con las distintas problemáticas sociales del país; atendiendo 
+              a las necesidades de los sectores vulnerables desde el aspecto social, cultural y deportivo.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-grid">
+      <div class="row row-cols-2">
+        <div class="col-one">
+          <h3>Tienda</h2>
+            <a href="https://www.tiendapincha.com/">
+              <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          </i>
+        </div>
+        <div class="col-two">
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          <h3>One of three columns</h2>
         </div>
       </div>
     </div>
