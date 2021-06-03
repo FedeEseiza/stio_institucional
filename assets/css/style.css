@@ -45,25 +45,42 @@ body
 {
     font-size: 20px;
 }
-.container-grid
+.container-footer
 {
-    width: 50%;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-top: 30px;
-    align-items: center;
-    background-color: #EDEDED;
+    max-width: 1170px;
+    margin: auto;
 }
-.container-grid .row .col-one 
+.row-footer
 {
-    width: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
-.container-grid .row .col-two 
+.footer
 {
-    margin-left: 50%;
+    background-color: black;
+    padding: 70px 0;
 }
-.container-grid .row .col-one a
-{ 
-   font-size: 30px;
-   color: black;
+.footer-col
+{
+    width: 25%;
+    padding: 0 15;
 }
+.footer-col h3
+{
+    font-size: 20px;
+    color: #DE1D22;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col .social-links a
+{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+    line-height: 40px;
+    color: #EDEDED;
+}
+
