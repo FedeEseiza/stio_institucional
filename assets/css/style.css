@@ -7,8 +7,6 @@ body
 .navbar
 {
     background-color: #EDEDED;
-    margin-top: 10px;
-    width: 100%;
 }
 .nav-link
 {
@@ -18,7 +16,6 @@ body
 {
     justify-content: center;
     margin-top: 20px;
-    padding: 20px;
 }
 .slide img
 {
